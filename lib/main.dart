@@ -13,7 +13,11 @@ class Homepage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Appbar'),
       ),
-      body: Container(),
+      body: Container(
+        child: Center(
+          child: Text('Test'),
+        ),
+      ),
     );
   }
 }
